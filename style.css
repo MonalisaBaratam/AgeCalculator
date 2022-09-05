@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,100&family=Rubik+Moonrocks&display=swap');
+*,*:after,*:before
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background:linear-gradient(45deg,#06024e,#007193) ;
+    color: #000;
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.age-calculator
+{
+    width: 100%;
+    max-width: 600px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    background:linear-gradient(45deg,#007193,#06024e) ;
+}
+.age-calculator h1
+{
+    font-size: 36px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+.age-calculator input
+{
+    width: 60%;
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Anton', sans-serif;
+}
+.age-calculator button
+{
+    width: 60%;
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    padding: 13px;
+    border-radius: 10px;
+    border: 0;
+    background: #0f7aab;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#calculate_age
+{
+    font-size: 24px;
+}
